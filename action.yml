@@ -1,4 +1,4 @@
-name: Issue to Jira
+name: Github Issue to Jira Sync
 description: Create Jira tickets for GitHub Issues automatically
 runs:
   using: docker
