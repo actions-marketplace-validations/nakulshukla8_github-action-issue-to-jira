@@ -102,7 +102,6 @@ async function addJiraTicket(jira, tools) {
   tools.log.info(`Title: ${title}`);
   tools.log.info(`Body: ${body}`);
   tools.log.info(`Project: ${project}`);
-  tools.log.info(`Assignee: ${assignee}`);
 
   let request = {
     fields: {
