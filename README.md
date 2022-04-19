@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync
-        uses: mheap/github-action-issue-to-jira@v1
+        uses: nakulshukla8/github-action-issue-to-jira@v2.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -29,5 +29,4 @@ jobs:
           jiraUsername: ${{ secrets.JIRA_USERNAME }}
           jiraPassword: ${{ secrets.JIRA_PASSWORD }} # See https://id.atlassian.com/manage/api-tokens
           project: PROJECTKEY
-          assignee: default_assignee
 ```
